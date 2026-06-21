@@ -41,6 +41,7 @@ app.layout = html.Div(
             children=[
                 html.H1(
                     "🍬 Pink Morsel Analytics",
+                    id="dashboard-header",
                     style={
                         "margin": "0",
                         "fontSize": "3rem",
