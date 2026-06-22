@@ -2,7 +2,7 @@
 
 source venv/Scripts/activate
 
-pytest tests/ -v
+pytest test/ -v
 
 if [ $? -eq 0 ]; then
     echo "All tests passed."
